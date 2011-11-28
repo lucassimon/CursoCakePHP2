@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="2" width="937" height="1457" text="Browser&#xA;http://serpentedonilo.com.br" measuredWidth="937" measuredHeight="1457"/>
+  <widgets xsi:type="model:Rectangle" id="3" x="248" y="82" width="609" height="51" measuredWidth="609" measuredHeight="51">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="4" x="712" y="153" width="137" text="Search" measuredWidth="137" measuredHeight="24"/>
+  <widgets xsi:type="model:LinkBar" id="6" x="267" y="95" text="Institucional,Modalidades,Servicos, Eventos,Multimidia,Agenda,Contato" measuredWidth="582" measuredHeight="25">
+    <font/>
+    <items x="0" y="0" width="85" height="25" text="Institucional"/>
+    <items x="103" y="0" width="90" height="25" text="Modalidades"/>
+    <items x="211" y="0" width="58" height="25" text="Servicos"/>
+    <items x="287" y="0" width="55" height="25" text="Eventos"/>
+    <items x="360" y="0" width="75" height="25" text="Multimidia"/>
+    <items x="453" y="0" width="53" height="25" text="Agenda"/>
+    <items x="524" y="0" width="57" height="25" text="Contato"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="7" x="145" y="83"/>
+  <widgets xsi:type="model:SVGImage" id="8" x="88" y="62" width="153" height="115"/>
+  <widgets xsi:type="model:Breadcrumbs" id="9" x="248" y="152" text="Home,Next Level,Next Level,Current Page" measuredWidth="332" measuredHeight="25">
+    <font/>
+    <items x="0" y="0" width="40" height="25" text="Home"/>
+    <items x="60" y="0" width="71" height="25" text="Next Level"/>
+    <items x="151" y="0" width="71" height="25" text="Next Level"/>
+    <items x="242" y="0" width="87" height="25" text="Current Page"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="11" x="80" y="376" width="345" height="201" measuredWidth="345" measuredHeight="201" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="80" y="232" text="Evento de danca 1" measuredWidth="355" measuredHeight="57">
+    <font size="32"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="13" x="80" y="288" width="355" measuredWidth="355" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="15" x="80" y="308" text="subtitulo" measuredWidth="181" measuredHeight="57">
+    <font size="32"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="16" x="293" y="592" text="+ Sobre o Evento" measuredWidth="132" measuredHeight="27">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="18" x="80" y="640" width="769" height="73" measuredWidth="769" measuredHeight="73"/>
+  <widgets xsi:type="model:TextField" id="20" x="120" y="678" width="148" text="Seu nome" measuredWidth="148" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="22" x="293" y="678" width="148" text="(31)9999-9999" measuredWidth="148" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="23" x="472" y="678" width="148" text="Email@email.com" measuredWidth="148" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="24" x="679" y="656" width="146" height="43" text="Inscreva-se" measuredWidth="146" measuredHeight="43">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="25" x="120" y="656" text="Nome*" measuredWidth="53" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="26" x="293" y="656" text="Telefone*" measuredWidth="70" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="27" x="472" y="656" text="Email*" measuredWidth="49" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="28" x="80" y="752" width="769" height="337" measuredWidth="769" measuredHeight="337"/>
+  <widgets xsi:type="model:Label" id="29" x="97" y="768" text="Servicos" measuredWidth="164" measuredHeight="57">
+    <font size="32"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="31" x="104" y="952" width="193" height="119" measuredWidth="193" measuredHeight="119" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="33" x="312" y="848" height="223" measuredWidth="6" measuredHeight="223"/>
+  <widgets xsi:type="model:Text" id="37" x="352" y="952" width="193" height="119" measuredWidth="193" measuredHeight="119" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="38" x="352" y="830"/>
+  <widgets xsi:type="model:VLine" id="39" x="560" y="848" height="223" measuredWidth="6" measuredHeight="223"/>
+  <widgets xsi:type="model:Text" id="41" x="592" y="952" width="193" height="119" measuredWidth="193" measuredHeight="119" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="42" x="800" y="848" height="223" measuredWidth="6" measuredHeight="223"/>
+  <widgets xsi:type="model:Image" id="43" x="114" y="840"/>
+  <widgets xsi:type="model:Image" id="44" x="361" y="840"/>
+  <widgets xsi:type="model:Panel" id="47" x="80" y="1120" width="769" height="249" measuredWidth="769" measuredHeight="249"/>
+  <widgets xsi:type="model:VLine" id="49" x="317" y="1120" height="249" measuredWidth="6" measuredHeight="249"/>
+  <widgets xsi:type="model:VLine" id="50" x="565" y="1120" height="249" measuredWidth="6" measuredHeight="249"/>
+  <widgets xsi:type="model:Image" id="51" x="334" y="1135"/>
+  <widgets xsi:type="model:Image" id="53" x="337" y="1129"/>
+  <widgets xsi:type="model:Image" id="54" x="385" y="1133"/>
+  <widgets xsi:type="model:Image" id="55" x="10" y="1046"/>
+  <widgets xsi:type="model:Image" id="56" x="473" y="1426"/>
+  <widgets xsi:type="model:Icon" id="57" x="333" y="1120" width="55" height="65" measuredWidth="55" measuredHeight="65" icon="calendar2 (xlarge)"/>
+  <widgets xsi:type="model:Label" id="58" x="397" y="1146" text="Eventos" measuredWidth="58" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="59" x="454" y="1151" measuredWidth="16" measuredHeight="16" icon="filled-arrow-right (small)"/>
+  <widgets xsi:type="model:Icon" id="60" x="344" y="1200" measuredWidth="32" measuredHeight="32" icon="calendar (large)"/>
+  <widgets xsi:type="model:Icon" id="61" x="344" y="1248" measuredWidth="32" measuredHeight="32" icon="calendar (large)"/>
+  <widgets xsi:type="model:Icon" id="62" x="344" y="1296" measuredWidth="32" measuredHeight="32" icon="calendar (large)"/>
+  <widgets xsi:type="model:Link" id="63" x="397" y="1192" text="evento titulo 1" measuredWidth="100" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="64" x="397" y="1240" text="evento titulo 2" measuredWidth="100" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="65" x="397" y="1288" text="evento titulo 3" measuredWidth="100" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="66" x="397" y="1216" width="150" height="18" measuredWidth="150" measuredHeight="18" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="67" x="397" y="1264" width="150" height="18" measuredWidth="150" measuredHeight="18" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="68" x="397" y="1312" width="150" height="18" measuredWidth="150" measuredHeight="18" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="69" x="579" y="1120" width="62" height="65" measuredWidth="62" measuredHeight="65" icon="book (xlarge)"/>
+  <widgets xsi:type="model:Label" id="70" x="652" y="1151" text="Opinioes" measuredWidth="65" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:SVGImage" id="71" x="546" y="240" width="303" height="379"/>
+  <widgets xsi:type="model:SVGImage" id="72" x="104" y="831" width="166" height="111"/>
+  <widgets xsi:type="model:SVGImage" id="73" x="352" y="831" width="169" height="111"/>
+  <widgets xsi:type="model:SVGImage" id="74" x="592" y="831" width="169" height="111"/>
+  <widgets xsi:type="model:Panel" id="75" x="80" y="1388" width="765" height="69" measuredWidth="765" measuredHeight="69"/>
+  <widgets xsi:type="model:LinkBar" id="76" x="260" y="1398" text="Institucional,Modalidades,Servicos, Eventos,Multimidia,Agenda,Contato" measuredWidth="582" measuredHeight="25">
+    <font/>
+    <items x="0" y="0" width="85" height="25" text="Institucional"/>
+    <items x="103" y="0" width="90" height="25" text="Modalidades"/>
+    <items x="211" y="0" width="58" height="25" text="Servicos"/>
+    <items x="287" y="0" width="55" height="25" text="Eventos"/>
+    <items x="360" y="0" width="75" height="25" text="Multimidia"/>
+    <items x="453" y="0" width="53" height="25" text="Agenda"/>
+    <items x="524" y="0" width="57" height="25" text="Contato"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="80" x="104" y="1395" measuredWidth="32" measuredHeight="32" icon="twitter (large)"/>
+  <widgets xsi:type="model:Icon" id="81" x="144" y="1395" measuredWidth="32" measuredHeight="32" icon="facebook (large)"/>
+  <widgets xsi:type="model:Icon" id="82" x="192" y="1395" measuredWidth="32" measuredHeight="32" icon="linkedin (large)"/>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

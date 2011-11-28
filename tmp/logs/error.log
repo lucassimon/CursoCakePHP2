@@ -1,0 +1,212 @@
+2011-11-20 22:29:59 Error: [MissingViewException] View file "/var/www/cursocake2/View/Pages/js/plugins.js.ctp" is missing.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/View/View.php(363): View->_getViewFileName('js/plugins.js')
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(899): View->render('js/plugins.js', NULL)
+#2 /var/www/cursocake2/Controller/PagesController.php(76): Controller->render('js/plugins.js')
+#3 [internal function]: PagesController->display('js', 'plugins.js')
+#4 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#6 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2011-11-20 22:29:59 Error: [MissingViewException] View file "/var/www/cursocake2/View/Pages/js/script.js.ctp" is missing.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/View/View.php(363): View->_getViewFileName('js/script.js')
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(899): View->render('js/script.js', NULL)
+#2 /var/www/cursocake2/Controller/PagesController.php(76): Controller->render('js/script.js')
+#3 [internal function]: PagesController->display('js', 'script.js')
+#4 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#6 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2011-11-20 22:30:13 Error: [MissingViewException] View file "/var/www/cursocake2/View/Pages/js/script.js.ctp" is missing.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/View/View.php(363): View->_getViewFileName('js/script.js')
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(899): View->render('js/script.js', NULL)
+#2 /var/www/cursocake2/Controller/PagesController.php(76): Controller->render('js/script.js')
+#3 [internal function]: PagesController->display('js', 'script.js')
+#4 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#6 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2011-11-20 22:30:13 Error: [MissingViewException] View file "/var/www/cursocake2/View/Pages/js/plugins.js.ctp" is missing.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/View/View.php(363): View->_getViewFileName('js/plugins.js')
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(899): View->render('js/plugins.js', NULL)
+#2 /var/www/cursocake2/Controller/PagesController.php(76): Controller->render('js/plugins.js')
+#3 [internal function]: PagesController->display('js', 'plugins.js')
+#4 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#6 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2011-11-20 22:38:02 Error: [MissingViewException] View file "/var/www/cursocake2/View/Pages/js/plugins.js.ctp" is missing.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/View/View.php(363): View->_getViewFileName('js/plugins.js')
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(899): View->render('js/plugins.js', NULL)
+#2 /var/www/cursocake2/Controller/PagesController.php(76): Controller->render('js/plugins.js')
+#3 [internal function]: PagesController->display('js', 'plugins.js')
+#4 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#6 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2011-11-20 22:38:02 Error: [MissingViewException] View file "/var/www/cursocake2/View/Pages/js/script.js.ctp" is missing.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/View/View.php(363): View->_getViewFileName('js/script.js')
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(899): View->render('js/script.js', NULL)
+#2 /var/www/cursocake2/Controller/PagesController.php(76): Controller->render('js/script.js')
+#3 [internal function]: PagesController->display('js', 'script.js')
+#4 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#6 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2011-11-20 22:40:58 Error: [MissingViewException] View file "/var/www/cursocake2/View/Pages/js/plugins.js.ctp" is missing.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/View/View.php(363): View->_getViewFileName('js/plugins.js')
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(899): View->render('js/plugins.js', NULL)
+#2 /var/www/cursocake2/Controller/PagesController.php(76): Controller->render('js/plugins.js')
+#3 [internal function]: PagesController->display('js', 'plugins.js')
+#4 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#6 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2011-11-20 22:40:59 Error: [MissingViewException] View file "/var/www/cursocake2/View/Pages/js/script.js.ctp" is missing.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/View/View.php(363): View->_getViewFileName('js/script.js')
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(899): View->render('js/script.js', NULL)
+#2 /var/www/cursocake2/Controller/PagesController.php(76): Controller->render('js/script.js')
+#3 [internal function]: PagesController->display('js', 'script.js')
+#4 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#6 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2011-11-20 22:41:20 Error: [MissingViewException] View file "/var/www/cursocake2/View/Pages/js/script.js.ctp" is missing.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/View/View.php(363): View->_getViewFileName('js/script.js')
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(899): View->render('js/script.js', NULL)
+#2 /var/www/cursocake2/Controller/PagesController.php(76): Controller->render('js/script.js')
+#3 [internal function]: PagesController->display('js', 'script.js')
+#4 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#6 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2011-11-20 22:41:20 Error: [MissingViewException] View file "/var/www/cursocake2/View/Pages/js/plugins.js.ctp" is missing.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/View/View.php(363): View->_getViewFileName('js/plugins.js')
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(899): View->render('js/plugins.js', NULL)
+#2 /var/www/cursocake2/Controller/PagesController.php(76): Controller->render('js/plugins.js')
+#3 [internal function]: PagesController->display('js', 'plugins.js')
+#4 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#6 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2011-11-20 22:41:21 Error: [MissingViewException] View file "/var/www/cursocake2/View/Pages/sobreoevento.ctp" is missing.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/View/View.php(363): View->_getViewFileName('sobreoevento')
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(899): View->render('sobreoevento', NULL)
+#2 /var/www/cursocake2/Controller/PagesController.php(76): Controller->render('sobreoevento')
+#3 [internal function]: PagesController->display('sobreoevento')
+#4 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#6 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2011-11-24 00:42:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-24 00:42:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-24 00:42:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-11-27 01:07:23 Error: [MissingActionException] Action PagesController::Lucas%20Simon%20Rodrigues%20Magalh%C3%A3es() could not be found.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-11-27 01:07:23 Error: [MissingActionException] Action PagesController::js() could not be found.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-11-27 01:07:23 Error: [MissingActionException] Action PagesController::js() could not be found.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-11-27 22:33:14 Error: [MissingViewException] View file "/var/www/cursocake2/View/Inscriptions/inscrever.ctp" is missing.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(899): View->render(NULL, NULL)
+#2 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(InscriptionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-11-27 22:33:14 Error: [MissingActionException] Action InscriptionsController::js() could not be found.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(InscriptionsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-11-27 22:33:14 Error: [MissingActionException] Action InscriptionsController::js() could not be found.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(InscriptionsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-11-27 22:39:22 Error: [MissingViewException] View file "/var/www/cursocake2/View/Inscriptions/inscrever.ctp" is missing.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(899): View->render(NULL, NULL)
+#2 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(InscriptionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-11-27 22:39:22 Error: [MissingActionException] Action InscriptionsController::js() could not be found.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(InscriptionsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-11-27 22:39:22 Error: [MissingActionException] Action InscriptionsController::js() could not be found.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(InscriptionsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-11-27 22:42:23 Error: [MissingViewException] View file "/var/www/cursocake2/View/Inscriptions/inscrever.ctp" is missing.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(899): View->render(NULL, NULL)
+#2 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(InscriptionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-11-27 22:42:23 Error: [MissingActionException] Action InscriptionsController::js() could not be found.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(InscriptionsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-11-27 22:42:23 Error: [MissingActionException] Action InscriptionsController::js() could not be found.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(InscriptionsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-11-27 22:50:09 Error: [MissingViewException] View file "/var/www/cursocake2/View/Inscriptions/inscrever.ctp" is missing.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Controller/Controller.php(899): View->render(NULL, NULL)
+#2 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(InscriptionsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-11-27 22:50:09 Error: [MissingActionException] Action InscriptionsController::js() could not be found.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(InscriptionsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-11-27 22:50:09 Error: [MissingActionException] Action InscriptionsController::js() could not be found.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(InscriptionsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-11-27 22:52:21 Error: [MissingActionException] Action InscriptionsController::js() could not be found.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(InscriptionsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-11-27 22:52:21 Error: [MissingActionException] Action InscriptionsController::js() could not be found.
+#0 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/share/php/cakephp/cake2.0/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(InscriptionsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cursocake2/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

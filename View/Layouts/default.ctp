@@ -57,22 +57,22 @@
 		
 		echo $this->Html->meta('icon');
 
-		echo $this->Html->css('style');
+		echo $this->Html->css(array('style','bootstrap.min'));
 
 		echo $scripts_for_layout;
 	?>
 </head>
-<body>
-	<div id="container">
+<body class="decara">
+	
 		<div id="header">
 			<?php echo $this->element('/layout/header'); ?>
 		</div>
 		<div id="content" role="main">
-
-			<?php echo $this->Session->flash(); ?>
-
-			<?php echo $content_for_layout; ?>
-
+			<div class="container">
+				<?php echo $this->Session->flash(); ?>
+	
+				<?php echo $content_for_layout; ?>
+			</div>
 		</div>
 		<div id="footer">
 			<?php echo $this->Html->link(
@@ -82,7 +82,7 @@
 				);
 			?>
 		</div>
-	</div>
+	
 	<?php if (Configure::read('debug') == 2) echo $this->element('sql_dump') ?>
 
 
@@ -114,5 +114,11 @@
 	  <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
 	  <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
 	<![endif]-->
+	<script type="text/javascript">
+
+		$(document).ready(function () { $("#topbar-container").dropdown(); }); $("body").bind("click", function (e) { $('.dropdown-toggle, .menu').parent("li").removeClass("open"); }); $(".dropdown-toggle, .menu").click(function (e) { var $li = $(this).parent("li").toggleClass('open'); return false; });
+
+		
+	</script>
 </body>
 </html>

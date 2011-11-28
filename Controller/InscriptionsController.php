@@ -193,13 +193,33 @@ class InscriptionsController extends AppController {
 				$this->redirect(array('controller'=>'pages', 'action' => 'display', 'home'));
 			} else {
 				$errors = $this->Inscription->invalidFields();
-				//pr($errors);
+				pr($errors);
+				/*
+				 * ERRRROOO MUITO ESTRANHO ESTA RETORNANDO DOIS ARRAYS COM ESTA MENSAGEM DE ERRO
+				 *
+				 * Array
+				 *	(
+					    [email] => Array
+					        (
+					            [0] => Este email já existe em nossa base de dados. Informe outro email.
+					            [1] => Este email já existe em nossa base de dados. Informe outro email.
+					        )
+					
+					)
+				 */
 				foreach ($errors as $key => $value) {
 					foreach ($value as $chave => $valorErro) {
 						$msgErro = $valorErro;
 					}
 				}
-				//pr($msgErro); die();
+				pr($msgErro); die();
+				/*
+				 * esta retornando essa mensagem abaixo 
+				 * Este email já existe em nossa base de dados. Informe outro email.
+				 * 
+				 *  De acordo com meu foreach eu so to pegando 1 valor do array
+				 */
+
 				$this->Session->setFlash($msgErro);
 				$this->redirect(array('controller'=>'pages', 'action' => 'display', 'home'));
 			}

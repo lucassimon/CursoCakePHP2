@@ -193,8 +193,14 @@ class InscriptionsController extends AppController {
 				$this->redirect(array('controller'=>'pages', 'action' => 'display', 'home'));
 			} else {
 				$errors = $this->Inscription->invalidFields();
-				pr($errors); die();
-				$this->Session->setFlash($errors);
+				//pr($errors);
+				foreach ($errors as $key => $value) {
+					foreach ($value as $chave => $valorErro) {
+						$msgErro = $valorErro;
+					}
+				}
+				//pr($msgErro); die();
+				$this->Session->setFlash($msgErro);
 				$this->redirect(array('controller'=>'pages', 'action' => 'display', 'home'));
 			}
 		}

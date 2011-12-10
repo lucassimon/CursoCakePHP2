@@ -41,7 +41,7 @@
 			</div>
 		</div>
 		
-		<?php echo $this->element('inscricoes/inscricoes');?>
+		
 		</section>
 	</article>
 

@@ -964,18 +964,7 @@ article.eventoPrincipal h2{
 }
 
 article.eventoPrincipal .sobreEvento{
-	background-color: #DDA7C4;
-	padding: 20px 20px 20px 20px;
-	-webkit-border-radius: 50px;
-	-moz-border-radius: 50px;
-	border-radius: 50px;
-	text-decoration: none;
-	color: #000;
 	
-	
-  -webkit-box-shadow: 0px 0px 4px #000; 
-     -moz-box-shadow: 0px 0px 4px #000; 
-          box-shadow: 0px 0px 4px #000; 
 
 }
 
@@ -989,44 +978,29 @@ article.eventoPrincipal	p.textalignright {
 	padding: 100px 20px 40px 20px;
 }
 */
-#inscricao form div {
-	clear: none;
-	margin-top: 1em;
-	margin-bottom: 1em;
-	padding: .5em;
-	vertical-align: text-top;
+
+#inscricao{
+	margin-top: 3em;
 }
 
-#inscricao .btnInscrevase {
-	height: 50px;
-	width: 120px;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	border-radius: 20px;
-	
-	background-color: #CB001A;
-	background-image: linear-gradient(bottom,#cb001a 100%,#e6001a 0);
-	background-image: -o-linear-gradient(bottom,#cb001a 100%,#e6001a 0);
-	background-image: -moz-linear-gradient(bottom,#cb001a 100%,#e6001a 0);
-	background-image: -webkit-linear-gradient(bottom,#cb001a 100%,#e6001a 0);
-	background-image: -ms-linear-gradient(bottom,#cb001a 100%,#e6001a 0);
-	background-image:-webkit-gradient(linear,left bottom,left top,color-stop(1,#cb001a),color-stop(0,#e6001a))
-	
-	display: inline-block;
-	color: white!important;
-	font-size: 1em;
-	padding: 10px 10px;
-	cursor: pointer;
-
+#inscricao input:invalid, textarea:invalid {
+	background-color: #FFF;
 }
-#inscricao label {
-	padding-top: 6px;
-	font-size: 13px;
-	line-height: 18px;
-	float: left;
-	width: 130px;
-	text-align: left;
-	color: #404040;
+
+#inscricao input:focus, textarea:focus {
+	outline: 0;
+	border-color: #A600A6;
+	-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);
+	-moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+#inscricao form .input {
+	margin-left: 0px;
+}
+
+#inscricao form label {
+	width: auto;
 }
 
 /* For image replacement */
